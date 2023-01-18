@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100px;
+}
+
+body {
+  font-family: monospace;
+  cursor: crosshair;
+}
+
+header {
+  font-weight: bold;
+  align-items: baseline;
+  background-color: #5169a7;
+}
+
+.listText {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.headNav {
+  padding-top: 60px;
+  flex-direction: row;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
