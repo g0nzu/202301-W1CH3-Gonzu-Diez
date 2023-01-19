@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
   <title>Document</title>
@@ -32,14 +33,27 @@
     <p class="boughtText">2/3 comprados</p>
   </div>
 
-  <div class="container">
-    <input type="checkbox" id="pan" name="ingredientes" value="pan">
-    <label for="pan">Pan</label>
-    <input type="checkbox" id="leche" name="ingredientes" value="leche">
-    <label for="leche">Leche</label>
-    <input type="checkbox" id="azucar" name="ingredientes" value="azucar">
-    <label for="azucar">Azúcar</label>
+  <div class="food">
+    <label for="cheese">Azucar</label>
+    <input type="checkbox" name="milk" class="checkbox-left">
+    <p class="price">X</p>
   </div>
+
+  <div class="food">
+    <label for="peas" class="nullWord">Leche</label>
+    <input type="checkbox" name="sugar" class="checkbox-left">
+    <p class="price">1.20€ X</p>
+  </div>
+
+  <div class="food">
+    <label for="peas" class="nullWord">Pan</label>
+    <input type="checkbox" name="bread" class="checkbox-left">
+    <p class="price">0.75€ X</p>
+  </div>
+  <p>----------------------------------------------------</p>
+  <p class="totalPrice">1.95€</p>
+
+
 </body>
 
 </html>

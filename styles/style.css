@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 100px;
 }
 
 body {
@@ -68,20 +67,84 @@ a:hover {
   margin-left: 40%;
 }
 
-.container {
+.preference {
   display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0.5rem;
+}
+
+.checkbox-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.nullWord {
+  text-decoration: line-through;
+}
+
+.food {
+  padding-top: 25px;
+}
+
+.foodPrices {
+  display: flex;
+  align-items: flex-end;
   flex-direction: column;
-  align-items: flex-start;
 }
 
-input[type="checkbox"] {
-  float: left;
-  line-height: 1.5;
-  vertical-align: middle;
+.listForms {
+  padding: 30px;
+  margin-left: 15px;
 }
 
-label {
-  line-height: 1.5;
-  float: left;
-  margin-left: 10px;
+.text-line {
+  background-color: transparent;
+  color: black;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid purple 1px;
+  padding: 3px 10px;
+}
+
+.text-line2 {
+  background-color: transparent;
+  color: black;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid blue 1px;
+  padding: 3px 10px;
+}
+
+.editText {
+  padding: 15px;
+}
+
+.editButton {
+  background-color: #008cba; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 30%;
+}
+
+.price {
+  text-align: right;
+}
+
+.totalPrice {
+  text-align: right;
+  padding-top: 10px;
 }

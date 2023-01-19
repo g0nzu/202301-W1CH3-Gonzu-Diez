@@ -1,0 +1,24 @@
+{
+  "name": "ch3",
+  "version": "1.0.0",
+  "description": "Challenge 3, week 1",
+  "main": "index.html",
+  "scripts": {
+    "test": ","
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g0nzu/202301-W1CH3-Gonzu-Diez.git"
+  },
+  "keywords": [
+    "git",
+    "html",
+    "css"
+  ],
+  "author": "gonzu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g0nzu/202301-W1CH3-Gonzu-Diez/issues"
+  },
+  "homepage": "https://github.com/g0nzu/202301-W1CH3-Gonzu-Diez#readme"
+}
