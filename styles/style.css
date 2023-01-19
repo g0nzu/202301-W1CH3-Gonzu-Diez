@@ -63,7 +63,25 @@ a:hover {
 }
 
 .boughtText {
-  font-size: x-large;
+  font-size: large;
   margin-top: 30px;
   margin-left: 40%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input[type="checkbox"] {
+  float: left;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+label {
+  line-height: 1.5;
+  float: left;
+  margin-left: 10px;
 }
