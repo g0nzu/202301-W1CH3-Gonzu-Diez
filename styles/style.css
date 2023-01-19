@@ -6,6 +6,7 @@
 }
 
 body {
+  background-color: #d1bead;
   font-family: monospace;
   cursor: crosshair;
 }
@@ -34,4 +35,35 @@ header {
 a {
   text-decoration: none;
   color: black;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: orange;
+}
+
+.boughtContainer {
+  display: flex;
+  background-color: #d09d72;
+  flex-direction: row;
+  line-height: 40px;
+}
+
+.additionIcon {
+  padding: 23px;
+  font-size: 90px;
+}
+
+.boughtText {
+  font-size: x-large;
+  margin-top: 30px;
+  margin-left: 40%;
 }
